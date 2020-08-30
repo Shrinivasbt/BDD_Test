@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35" started-at="2020-08-29T16:39:58Z" finished-at="2020-08-29T16:39:58Z">
+  <suite name="Suite" duration-ms="41" started-at="2020-08-29T18:25:52Z" finished-at="2020-08-29T18:25:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35" started-at="2020-08-29T16:39:58Z" finished-at="2020-08-29T16:39:58Z">
-      <class name="Tests.Test3">
-        <test-method status="PASS" signature="print()[pri:0, instance:Tests.Test3@79ad8b2f]" name="print" duration-ms="12" started-at="2020-08-29T22:09:58Z" finished-at="2020-08-29T22:09:58Z">
+    <test name="Test" duration-ms="41" started-at="2020-08-29T18:25:52Z" finished-at="2020-08-29T18:25:52Z">
+      <class name="sampletests.Test2">
+        <test-method status="PASS" signature="print()[pri:0, instance:sampletests.Test2@4387b79e]" name="print" duration-ms="2" started-at="2020-08-29T23:55:52Z" finished-at="2020-08-29T23:55:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- print -->
-      </class> <!-- Tests.Test3 -->
-      <class name="Tests.Test2">
-        <test-method status="PASS" signature="print()[pri:0, instance:Tests.Test2@6e75aa0d]" name="print" duration-ms="2" started-at="2020-08-29T22:09:58Z" finished-at="2020-08-29T22:09:58Z">
+      </class> <!-- sampletests.Test2 -->
+      <class name="sampletests.Test3">
+        <test-method status="PASS" signature="print()[pri:0, instance:sampletests.Test3@197d671]" name="print" duration-ms="17" started-at="2020-08-29T23:55:52Z" finished-at="2020-08-29T23:55:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- print -->
-      </class> <!-- Tests.Test2 -->
-      <class name="Tests.Test1">
-        <test-method status="PASS" signature="print()[pri:0, instance:Tests.Test1@402e37bc]" name="print" duration-ms="2" started-at="2020-08-29T22:09:58Z" finished-at="2020-08-29T22:09:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- print -->
-      </class> <!-- Tests.Test1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- sampletests.Test3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
